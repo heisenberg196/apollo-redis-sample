@@ -1,0 +1,9 @@
+type Cast {
+  id: ID!
+  castId: ID!
+  name: String!
+  character: String!
+  gender: Int!
+  photo: Photo
+  order: Int!
+}

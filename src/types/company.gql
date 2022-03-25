@@ -1,0 +1,10 @@
+type Company {
+  id: ID!
+  name: String!
+  description: String!
+  country: String!
+  homepage: URL!
+  headquarters: String!
+  logo: Logo!
+  parentCompany: Company
+}

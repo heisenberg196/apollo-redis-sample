@@ -1,0 +1,15 @@
+type Episode {
+  id: ID!
+  name: String!
+  number: Int!
+  still: Still
+  overview: String!
+  series: TV!
+  season: Season!
+  aired: String!
+  score: Float!
+  votes: Int!
+  cast: [Cast!]!
+  crew: [Crew!]!
+  guests: [Guest!]!
+}

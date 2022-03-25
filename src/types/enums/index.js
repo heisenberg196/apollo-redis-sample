@@ -1,0 +1,6 @@
+export { default as Gender } from "./gender.gql"
+export { default as Palette } from "./palette.gql"
+export { default as ReleaseStatus } from "./releaseStatus.gql"
+export { default as TVStatus } from "./tvStatus.gql"
+export { default as TVType } from "./tvType.gql"
+export { default as VideoType } from "./videoType.gql"

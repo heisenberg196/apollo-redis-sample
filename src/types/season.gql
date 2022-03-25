@@ -1,0 +1,11 @@
+type Season {
+  id: ID!
+  name: String!
+  overview: String!
+  poster: Poster
+  number: Int!
+  aired: String!
+  series: TV!
+  episodeCount: Int!
+  episodes: [Episode!]!
+}
